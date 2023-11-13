@@ -20,7 +20,7 @@ repos:
   hooks:
   - id: isort
 - repo: https://github.com/psf/black
-  rev: e87737140f32d3cd7c44ede75f02dcd58e55820e  # frozen: 23.9.1
+  rev: 2a1c67e0b2f81df602ec1f6e7aeb030b9709dc7c  # frozen: 23.11.0
   hooks:
   - id: black
 - repo: https://github.com/PyCQA/docformatter
@@ -28,7 +28,7 @@ repos:
   hooks:
   - id: docformatter
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: f71fa2c1f9cf5cb705f73dffe4b21f7c61470ba9  # frozen: v4.4.0
+  rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
   hooks:
   - id: check-yaml
 - repo: https://github.com/pre-commit/pygrep-hooks
@@ -46,7 +46,7 @@ repos:
     - flake8-builtins
     - flake8-comprehensions
 - repo: https://github.com/pre-commit/mirrors-mypy
-  rev: 08cbc46b6e135adec84911b20e98e5bc52032152  # frozen: v1.5.1
+  rev: 4c8a8c7d5eb892ab5a6e23e11f36dbba5874d40c  # frozen: v1.7.0
   hooks:
   - id: mypy
     args: ["--scripts-are-modules"]
